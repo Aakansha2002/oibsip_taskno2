@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@1,300&family=Noto+Serif:wght@700&family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    background-color: teal;
+}
+header nav .left a{
+    color: rgb(223,216,200);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+header nav .left a:hover{
+    color: black;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .logo{
+    margin-right: 3rem;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+}
+main{
+    background-color: teal;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.hero{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 7rem;
+}
+.hero .right{
+    color: brown;
+    margin-top: -7rem;
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color: brown;
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.services{
+    background: teal;
+}
+.services-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+}
+.services-head + p{
+    color: white;
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-weight: 400;
+}
+.card img{
+    width: 50px;
+    background: white;
+}
+section.services .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+}
+section.services .card-grid .card{
+    background: white;
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease;
+}
+section.services .card-grid .card img{
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: lavender;
+}
+section.services .card-grid .card h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+section.services .card-grid .card p{
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 0.5rem;
+}
+section.services .card-grid .card:hover{
+    background: lightcoral;
+}
+section.services .card-grid .card:hover h2{
+    color: white;
+}
+section.services .card-grid .card:hover p{
+    color: white;
+}
